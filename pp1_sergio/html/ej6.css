@@ -1,0 +1,19 @@
+div {
+    width: 300px;
+
+}
+.bloque{
+
+    margin: 2px;
+    padding: 4px;
+    border: 1px solid black;
+    display: block;
+
+}
+
+.linea{
+    margin: 2px;
+    padding: 4px;
+    border: 2px dotted black;
+    display: inline-block;
+}
