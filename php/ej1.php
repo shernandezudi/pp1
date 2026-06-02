@@ -6,11 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Esto es HTML</h1>
     <?php
-        echo '<p>Hola Mundo</p>'; //comentario  
-        /*cometario de
-        varias lineas */
+        $var1 = "comer verduras";
+        $var2 = "es realmente sano";
+        $var3 = $var1 . $var2;
+        $pos = strpos($var3, "verduras");
+        echo $pos;
     ?>
 </body>
 </html>
