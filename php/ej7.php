@@ -7,22 +7,12 @@
 </head>
 <body>
     <?php
-    echo "<table>";
-    echo "<tr>";
-    
-    echo '<p>X</p>';
-    echo 
-      for($i = 1; $i<=10;$i++){
-        
-        echo $i * 1;
-         
-      }
-    
-    
-    echo "</tr>";
-    
-    
-      echo "</table>";
+   function valor($radio, $altura){
+     $volumen = 3.14 * ($radio*$radio) * $altura;
+    return $volumen;
+   }
+   
+   echo valor(3,5);
     ?>
 </body>
 </html>

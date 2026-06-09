@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+    <form method="post" action="ej8.php">
+        Nombre:
+        <input name="nombre" type="text" size="40" maxlength="50">
+        <br>
+        <br>
+        Apellido:
+        <input name="apellido" type="text" size="40" maxlength="50">
+        <br>
+        <br>
+        Sexo:
+        <input name="sexo" type="radio" size="40" maxlength="100"> Masculino <input name="sexo" type="radio" size="40" maxlength="100"> Femenino <input name="sexo" type="radio" size="40" maxlength="100"> No Binario
+        <br>
+        <br>
+        Estado civil: <select name="ecivil" id="ecivil" size="1">
+            <option value="S">Soltero</option>
+            <option value="C">Casado</option>
+            <option value="D">Divorciado</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" checked> Deseo recibir informacion sobre novedades y ofertas
+        <br>
+        
+        <input type="checkbox"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
