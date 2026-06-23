@@ -30,6 +30,7 @@ Class Celda{
 Class Tabla{
     private array = [];
 
+    
 }
 
 ?>
