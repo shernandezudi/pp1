@@ -1,0 +1,22 @@
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: #000000;
+    text-align: center;
+}
+
+.btn-ligth {
+    display: inline-block;
+    background-color: #17e6ed;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
