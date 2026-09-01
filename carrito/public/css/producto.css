@@ -1,0 +1,19 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+}
+
+.producto {
+    flex: 0 0 calc(20% - 16px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
